@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel='stylesheet' type="text/css" href="../css/main.css">
+  <link rel='stylesheet' type="text/css" href="../highlight/styles/monokai.css">
+  <script src="../highlight/highlight.min.js"></script>
+  <script>hljs.highlightAll()</script>
+</head>
+
+<body>
+  <h1>I hate JavaScript</h1>
+  <h3>Date: 2026-01-28 </h3>
+  <div>
+    <p>
+      I personally, hate Javascript. I hate coding in Javascript, I hate
+      the syntax of Javascript, I hate everything about the language.
+      <br><br>
+      You see the whole reason why I chose to use a framework in the
+      first place was because I personally will NEVER write Javascript/TypeScript
+      willingly, unless I have an absolute need to for a project.
+    </p>
+  </div>
+  <h2>Why?</h2>
+  <div>
+    <p>
+      Good question.
+      <br><br>
+      First and foremost, the language itself is inferior to it's *successor Typescript, but
+      what's even better is WASM (blog post is done, you can click off now).
+
+      But even then I won't ever write TypeScript either because it ALSO shares
+      the same grievances I have with Javascript and nonetheless, will never be
+      willingly be written by me. This is because the language's logic is so
+      damn stupid.
+    </p>
+    <div>
+      <pre>
+        <code class="js">
+console.log(NaN===NaN) // =false (wtf?)
+        </code>
+      </pre>
+      <p id="quote">Don't get me wrong, this is the same in other languages (Rust comes to mind) but at the minimum-- I have a type system where this
+      gets limited to for numerics. I.e. 'NaN==NaN = false' will always only occur for floating point integers</p>
+    </div>
+      <p>
+      Secondly, I don't have time to learn about front-end design. In my heart,
+      I am a systems level architect and engineer. I care about the level <b>below</b>
+      the browser. I have spent so much more time developing and writing code that makes
+      most sense at the systems level because at the end of the day, the systems matter
+      more than the presentation.
+      <br><br>
+      <b>The manipulation of data is the only meaningful part of anything computationally wise, the rest of it is
+        time best spent optimizing and organizing.</b>
+    </p>
+    <p>
+      Thirdly, I don't necessarily need to specialize myself in front-end design, there are other people
+      out there who enjoy it-- just like how there are people who enjoy masochism.
+      <br><br>
+      Personally, it's not my cup of tea-- but hey, if you like it, cool. I'm not gonna sit here and
+      tell you that "you shouldn't put your d*ck in hot candle wax" if it makes you happy. It's not my place
+      (and never will be) to tell you that you "should" or "shouldn't" do something. If you like that sort of stuff
+      go ahead, that's just freedom baby.
+    </p>
+    <p>
+      In all seriousness, that's also the beauty in economies of scale-- everyone is allowed to do what they
+      enjoy in a workplace environment (not masochism hopefully...) and they can contribute to the greater value of a
+      project in whatever way they specialized themselves in.
+    </p>
+    <p></p>
+  </div>
+  <h2>Just because I said I hate front-end work, doesn't mean I won't implement functionality.</h2>
+  <div>
+    <p>Now don't get my words all twisted up-- if the need/desire arises, I will write some
+      code to do do whatever it is that I need to do for this site, but I can guarantee you that it will be
+      written in Rust/WASM, and not JS/TS. Even though this site has no backend that could reasonably
+      benefit from this performance increase-- I would much rather write code in a vastly
+      superior language to JS (which is any language) as I've known many other webdev's do.</p>
+    <p>The question really to beg is why haven't I written any web-based application since
+      m0o-tab? Well to simply put it-- I still consider myself a novice of the craft. Sure I can
+      put together nice projects, but I know that there are better ways to write things. Genpass is
+      a great example of this: I have written so much functionality into it, but the codebase is SOOOOOO
+      fucked looking back at it. I could do things in a much more organized way and written it to not have such
+      cancerous matching implementations, but at the time it made sense to me. Now looking at it, I rather should
+      have written a better structured system, which I plan on doing sometime this year (2026).</p>
+    <p>However, if the need arises to create like a blog indexing system/organization system, I'll write it. It's just
+      that right now? Too focused on other things. Things that matter really-- like school, and 'work' (if you can even call
+      it that, I just write software and look at software all day, which makes me happy still :P)</p>
+
+
+
+<!-- todo! -->
+    <pre>
+      <code>
+//lib.rs
+use wasm_bindgen::prelude::*;
+#[derive(Debug)]
+struct MyStruct&lbrace;&rbrace; // structs :P
+
+impl MyStruct&lbrace;
+  fn new()&lbrace;
+    todo!() // HOLY TODO STATEMENTS
+  &rbrace;
+&rbrace;
+
+
+fn foo(a:u8, b:u8)->bool &lbrace;
+  // none of that === bullshit
+  a == b // CAN JS RETURN VALUES LIKE THIS THO????
+&rbrace;
+        
+pub fn maths() &lbrace;
+  let a = 5;
+  let b = 6;
+  let c: bool = foo(a, b); // oh my god TYPES
+
+  // prints 
+  println!("&lbrace;&rbrace;",c) // 'print' will always be superior
+&rbrace;
+      </code>
+    </pre>
+
+    <p>(Oh and just because this page has an import to another JS project, doesn't count. <br>I didn't write that.)</p>
+  </div>
+</body>
+
+</html>
