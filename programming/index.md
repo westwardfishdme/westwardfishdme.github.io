@@ -4,3 +4,6 @@
 
 layout: home
 ---
+Hi welcome to my page!
+If you're new here uh things are still getting setup, but for now
+just enjoy some relaxing text on a white screen.
