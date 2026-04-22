@@ -20,14 +20,15 @@
 
 title: Finch's Projects Directory
 email: westwardfishdme@gmail.com
-description: Some guy's project page blah blah blah generic description.
+description: >- # this means to ignore newlines until "baseurl:"
+  Not that bad of a description i guess.
 baseurl: "/programming" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: westwardfishdme
 github_username:  westwardfishdme
 
 # Build settings
-remote_theme: pages-themes/midnight@v0.2.0
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
