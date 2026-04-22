@@ -23,7 +23,7 @@ email: westwardfishdme@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Not that bad of a description i guess.
 baseurl: "/programming" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://westwardfishdme.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: westwardfishdme
 github_username:  westwardfishdme
 
