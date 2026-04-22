@@ -28,7 +28,7 @@ twitter_username: westwardfishdme
 github_username:  westwardfishdme
 
 # Build settings
-remote_theme: abhinavs/moonwalk
+theme: minima
 
 plugins:
   - jekyll-feed
