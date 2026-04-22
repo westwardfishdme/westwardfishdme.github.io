@@ -29,6 +29,7 @@ github_username:  westwardfishdme
 # Build settings
 theme: pages-themes/midnight@v0.2.0
 plugins:
+  - jekyll-feed
   - jekyll-remote-theme
 
 # Exclude from processing.
