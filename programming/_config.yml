@@ -28,10 +28,10 @@ twitter_username: westwardfishdme
 github_username:  westwardfishdme
 
 # Build settings
-theme: jekyll-theme-midnight
+remote_theme: abhinavs/moonwalk
+
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
