@@ -88,7 +88,7 @@ fn delete(abs_path: &PathBuf) -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 ```
-> Note: On failure, get get_malware_path() will make a recursive call to retry and obtain that binary path.
+> Note: On failure, get_malware_path() will make a recursive call to retry and obtain that binary path.
 
 ## Applicable use
 While the proof of concept's [live branch](https://github.com/westwardfishdme/POC_binary_self_deletion/tree/live) lacks any malicious code at the moment,
