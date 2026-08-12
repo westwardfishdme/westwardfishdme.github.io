@@ -93,8 +93,8 @@ fn delete(abs_path: &PathBuf) -> Result<(), Box<dyn Error>> {
 ## Applicable use
 While the proof of concept's [live branch](https://github.com/westwardfishdme/POC_binary_self_deletion/tree/live) lacks any malicious code at the moment,
 it's use as a part of a larger malicious ecosystem would make it invaluable to hiding any semblance of a trace inside of a target's machine. In addition,
-the modularity of the project allows it to implement different forms of deletion conditions, or even allowing different levels of deletion such as overwriting
-the path with garbage information before deletion.
+the modularity of the project allows it to implement different forms of deletion conditions, or even allowing an attacker to overwrite the binary with garbage
+data to further obfuscate their tracks during forensic analysis.
 
 The reason that this works as effectively as it does is because of the nature of how executables work on linux, which I will briefly explain here:
 
