@@ -7,25 +7,28 @@ body {
 	padding-left: 20%;
 	padding-right: 20%;
 	max-width: auto;
+	font-family: monospace;
 }
 
 p {
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 /* Headers */
 h1 {
 	color: #f47373;
+	font-family: monospace;
 }
 h2 {
 	color: #8fe80a;
+	font-family: monospace;
 }
 
 /* Links */
 a {
 	color: #1976d2;
-	font-size: 14px;
+	font-size: 18px;
 }
 a:link {
 	color: #1976d2;
@@ -94,7 +97,6 @@ h4 {
 	max-width: 33%;
 	margin-left: 33%;
 }
-
 @media (max-width: 1440) {
 	body {
 		background: #222222;
@@ -104,6 +106,7 @@ h4 {
 		padding-left: 20%;
 		padding-right: 20%;
 		max-width: auto;
+		font-family: monospace;
 	}
 
 	p {
@@ -114,9 +117,11 @@ h4 {
 	/* Headers */
 	h1 {
 		color: #f47373;
+		font-family: monospace;
 	}
 	h2 {
 		color: #8fe80a;
+		font-family: monospace;
 	}
 
 	/* Links */
@@ -192,7 +197,7 @@ h4 {
 	}
 }
 /* Fix mobile stuff. */
-@media (orientation: portrait) {
+@media (orientation: portrait) or (max-width: 700) {
 	body {
 		background: #222222;
 		color: #dfdfdf;
@@ -205,7 +210,7 @@ h4 {
 
 	p {
 		color: #ffffff;
-		font-size: 20px;
+		font-size: 10px;
 	}
 
 	/* Headers */
@@ -229,6 +234,7 @@ h4 {
 		color: #ffffff;
 	}
 	h4 {
+		font-size: 12px;
 		color: #ffaf00;
 	}
 
